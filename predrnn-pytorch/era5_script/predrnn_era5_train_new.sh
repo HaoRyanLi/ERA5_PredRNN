@@ -52,16 +52,16 @@ python -u run1.py \
     --r_sampling_step_1 25000 \
     --r_sampling_step_2 50000 \
     --r_exp_alpha 2500 \
-    --lr 5e-5 \
+    --lr 2e-5 \
     --batch_size 3 \
     --test_batch_size 9 \
     --max_iterations 10000 \
     --display_interval 1000 \
     --test_interval 10 \
-    --snapshot_interval 2200 \
+    --snapshot_interval 1000 \
     --conv_on_input 0 \
     --res_on_conv 0 \
-    --curr_best_mse 0.0252 \
+    --curr_best_mse 0.025 \
     --save_best_name wv1_pc0_impl \
     --pretrained_model /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
     --pretrained_model_name model_wv1_pc0.ckpt \

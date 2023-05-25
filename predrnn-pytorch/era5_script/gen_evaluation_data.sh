@@ -17,7 +17,7 @@ python -u run1.py \
     --dataset_name mnist \
     --train_data_paths ${train_data_paths} \
     --valid_data_paths /scratch/09012/haoli1/ERA5/val_dataset/era5_train_09012021_3_24hr.npz \
-    --extra_var_paths /scratch/09012/haoli1/ERA5/exta_var.npz\
+    --extra_var_paths /scratch/09012/haoli1/ERA5/exta_var.npz \
     --gen_frm_dir ${load_path} \
     --gen_data_dir /scratch/09012/haoli1/ERA5/evaluation/ \
     --save_test_result 1 \
@@ -27,7 +27,7 @@ python -u run1.py \
     --test_batch_size 6\
     --gpu_num 3\
     --is_WV 1 \
-    --press_constraint 0 \
+    --press_constraint 1 \
     --center_enhance 0 \
     --patch_size 40 \
     --weighted_loss 1 \
@@ -63,7 +63,7 @@ python -u run1.py \
     --res_on_conv 0 \
     --multiply 1.1 \
     --pretrained_model ${load_path} \
-    --pretrained_model_name model_8000.ckpt \
+    --pretrained_model_name model_wv1_pc1_impl.ckpt \
     # --pretrained_model_name model_test_schedule_sampling_DynaMean.ckpt \
 
 #cp /scratch/network/hvtran/era5/predrnn-pytorch/checkpoints/era5_predrnn/model.ckpt-1000 /home/hvtran/
