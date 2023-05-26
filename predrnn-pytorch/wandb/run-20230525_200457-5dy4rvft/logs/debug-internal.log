@@ -12026,3 +12026,1183 @@
 2023-05-26 01:10:59,900 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
 2023-05-26 01:10:59,979 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
 2023-05-26 01:11:04,979 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:09,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:14,899 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:11:14,900 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:11:15,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:16,140 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:11:20,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:25,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:29,251 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:11:29,899 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:11:29,900 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:11:30,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:35,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:40,982 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:44,899 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:11:44,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:11:46,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:51,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:56,976 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:11:59,255 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:11:59,899 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:11:59,900 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:12:02,076 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:04,203 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:07,222 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:07,327 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:12:07,329 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:12:07,329 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:12:07,332 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:12:08,209 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:12:10,211 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:12,333 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:14,900 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:12:14,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:12:17,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:22,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:28,234 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:28,718 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:29,286 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:12:29,900 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:12:29,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:12:30,113 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:12:30,114 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:12:30,114 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:12:30,116 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:12:30,238 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:12:32,240 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:34,117 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:39,118 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:44,119 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:44,900 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:12:44,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:12:49,399 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:50,261 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:52,791 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:12:52,792 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:12:52,792 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:12:52,794 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:12:53,267 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:12:54,268 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:12:54,795 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:12:59,257 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:12:59,900 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:12:59,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:12:59,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:04,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:09,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:12,289 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:14,900 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:13:14,901 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:13:14,983 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:20,171 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:20,186 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:13:20,187 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:13:20,188 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:13:20,189 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:13:20,304 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:13:20,304 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:22,306 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:25,357 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:25,458 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:13:25,459 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:13:25,460 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:13:25,462 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:13:26,312 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:13:28,314 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:29,259 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:13:29,901 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:13:29,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:13:30,973 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:35,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:40,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:44,901 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:13:44,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:13:45,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:46,337 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:48,160 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:13:48,161 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:13:48,162 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:13:48,164 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:13:48,342 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:13:50,344 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:13:51,165 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:56,166 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:13:59,261 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:13:59,902 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:13:59,903 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:14:01,973 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:07,583 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:08,364 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:10,934 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:14:10,935 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:14:10,935 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:14:10,937 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:14:11,369 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:14:12,370 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:12,938 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:14,901 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:14:14,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:14:17,979 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:22,979 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:27,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:29,270 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:14:29,902 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:14:29,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:14:30,392 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:32,983 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:33,499 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:14:33,499 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:14:33,500 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:14:33,501 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:14:34,399 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:14:34,399 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:36,401 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:38,503 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:43,503 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:44,901 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:14:44,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:14:48,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:54,423 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:54,784 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:14:56,193 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:14:56,194 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:14:56,194 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:14:56,196 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:14:56,427 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:14:58,429 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:14:59,265 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:14:59,902 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:14:59,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:14:59,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:04,982 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:09,983 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:14,901 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:15:14,902 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:15:15,976 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:16,449 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:15:18,860 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:15:18,861 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:15:18,861 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:15:18,863 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:15:19,454 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:15:20,455 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:15:21,864 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:26,865 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:29,267 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:15:29,902 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:15:29,903 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:15:31,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:36,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:38,477 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:15:41,689 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:15:41,690 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:15:41,690 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:15:41,692 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:15:42,483 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:15:42,693 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:44,485 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:15:44,902 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:15:44,903 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:15:47,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:52,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:57,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:15:59,269 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:15:59,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:15:59,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:16:02,508 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:03,393 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:04,799 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:16:04,800 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:16:04,800 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:16:04,802 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:16:05,513 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:16:06,514 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:08,803 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:13,804 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:14,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:16:14,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:16:18,978 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:24,533 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:24,569 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:27,945 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:16:27,946 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:16:27,946 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:16:27,948 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:16:28,539 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:16:29,271 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:16:29,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:16:29,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:16:29,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:30,541 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:34,975 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:39,976 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:44,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:16:44,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:16:45,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:48,562 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:50,841 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:16:50,842 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:16:50,843 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:16:50,844 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:16:51,588 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:16:51,845 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:52,589 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:16:56,846 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:16:59,273 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:16:59,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:16:59,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:17:01,976 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:06,977 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:10,607 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:12,407 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:14,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:17:14,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:17:18,200 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:17:18,202 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:17:18,202 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:18,202 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:17:18,204 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:17:18,616 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:17:18,616 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:20,618 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:23,337 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:23,435 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:17:23,436 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:17:23,437 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:17:23,439 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:17:23,622 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:17:24,623 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:28,440 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:29,274 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:17:29,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:17:29,904 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:17:33,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:38,974 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:44,644 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:44,889 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:44,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:17:44,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:17:46,284 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:17:46,285 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:17:46,285 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:17:46,287 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:17:46,649 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:17:48,651 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:17:50,288 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:55,289 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:17:59,276 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:17:59,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:17:59,906 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:18:00,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:06,669 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:18:06,746 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:09,094 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:18:09,096 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:18:09,096 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:18:09,098 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:18:09,673 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:18:10,675 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:18:12,099 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:14,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:18:14,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:18:17,977 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:22,978 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:28,436 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:28,693 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:18:29,279 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:18:29,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:18:29,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:18:31,832 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:18:31,833 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:18:31,833 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:18:31,835 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:18:32,697 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:18:33,836 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:34,700 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:18:38,837 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:43,838 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:44,904 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:18:44,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:18:48,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:52,718 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:18:54,753 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:18:59,350 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:18:59,905 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:18:59,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:18:59,983 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:04,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:09,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:14,905 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:19:14,906 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:19:14,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:19,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:24,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:29,283 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:19:29,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:19:29,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:19:29,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:34,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:40,779 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:19:40,937 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:43,589 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:19:43,590 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:19:43,591 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:19:43,593 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:19:43,787 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:19:44,788 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:19:44,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:19:44,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:19:45,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:50,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:55,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:19:59,286 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:19:59,908 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:19:59,908 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:20:01,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:04,812 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:06,509 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:20:06,510 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:20:06,511 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:20:06,512 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:20:06,816 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:20:07,513 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:08,818 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:12,514 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:14,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:20:14,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:20:17,977 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:22,978 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:26,838 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:28,643 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:29,054 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:20:29,055 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:20:29,055 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:20:29,057 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:20:29,287 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:20:29,842 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:20:29,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:20:29,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:20:30,843 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:33,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:38,999 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:44,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:44,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:20:44,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:20:48,865 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:49,406 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:51,827 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:20:51,828 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:20:51,828 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:20:51,830 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:20:51,871 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:20:52,872 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:20:54,831 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:20:59,290 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:20:59,907 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:20:59,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:20:59,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:04,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:09,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:12,897 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:21:14,734 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:21:14,735 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:21:14,735 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:21:14,737 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:21:14,902 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:21:14,906 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:21:14,907 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:21:15,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:16,904 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:21:20,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:25,982 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:29,309 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:21:29,908 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:21:29,908 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:21:30,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:34,925 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:21:36,547 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:37,930 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:21:37,931 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:21:37,931 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:21:37,933 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:21:38,933 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:21:38,934 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:21:41,934 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:44,907 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:21:44,908 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:21:46,979 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:51,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:56,954 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:21:57,771 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:21:59,294 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:21:59,907 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:21:59,908 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:22:02,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:05,771 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:22:05,772 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:22:05,772 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:22:05,777 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:22:05,969 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:22:06,971 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:08,611 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:08,973 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:11,020 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:22:11,021 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:22:11,021 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:22:11,023 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:22:11,976 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:22:12,977 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:14,024 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:14,908 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:22:14,908 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:22:19,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:24,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:29,296 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:22:29,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:22:29,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:22:30,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:30,998 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:34,147 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:22:34,149 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:22:34,149 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:22:34,151 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:22:35,003 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:22:36,152 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:37,005 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:41,152 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:44,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:22:44,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:22:46,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:51,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:55,030 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:56,976 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:22:56,977 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:22:56,977 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:22:56,979 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:22:57,035 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:22:57,980 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:22:59,037 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:22:59,298 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:22:59,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:22:59,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:23:02,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:07,992 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:12,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:14,911 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:23:14,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:23:17,058 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:23:18,684 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:20,133 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:23:20,134 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:23:20,135 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:23:20,136 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:23:21,065 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:23:21,066 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:23:23,067 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:23:24,137 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:29,138 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:29,314 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:23:29,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:23:29,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:23:34,981 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:40,884 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:41,088 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:23:43,307 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:23:43,308 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:23:43,308 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:23:43,310 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:23:44,093 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:23:44,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:23:44,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:23:45,093 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:23:45,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:50,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:55,994 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:23:59,302 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:23:59,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:23:59,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:24:01,626 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:03,116 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:06,055 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:24:06,056 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:24:06,056 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:24:06,058 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:24:06,121 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:24:07,059 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:07,122 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:12,060 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:14,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:24:14,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:24:17,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:22,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:27,145 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:28,628 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:29,045 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:24:29,046 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:24:29,047 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:24:29,048 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:24:29,150 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:24:29,304 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:24:29,910 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:24:29,911 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:24:31,151 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:33,994 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:38,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:43,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:44,911 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:24:44,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:24:49,172 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:49,519 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:51,948 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:24:51,950 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:24:51,950 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:24:51,952 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:24:52,178 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:24:53,179 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:24:54,953 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:24:59,306 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:24:59,912 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:24:59,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:24:59,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:04,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:09,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:11,199 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:25:14,625 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:25:14,626 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:25:14,626 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:25:14,628 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:25:14,911 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:25:14,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:25:14,992 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:15,205 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:25:17,207 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:25:19,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:24,994 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:29,308 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:25:29,912 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:25:29,913 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:25:30,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:35,229 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:25:36,076 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:37,465 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:25:37,466 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:25:37,466 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:25:37,468 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:25:38,233 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:25:39,234 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:25:41,469 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:44,911 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:25:44,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:25:46,984 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:51,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:57,148 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:25:57,254 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:25:59,310 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:25:59,912 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:25:59,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:26:02,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:05,266 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:26:05,301 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:26:05,302 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:26:05,302 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:26:05,304 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:26:06,267 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:26:07,268 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:26:08,177 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:10,588 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:26:10,590 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:26:10,590 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:26:10,592 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:26:11,273 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:26:13,275 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:26:13,593 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:14,912 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:26:14,912 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:26:18,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:23,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:29,251 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:29,294 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:26:29,312 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:26:29,912 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:26:29,913 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:26:34,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:39,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:44,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:26:44,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:26:44,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:49,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:54,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:26:59,314 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:26:59,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:26:59,913 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:26:59,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:04,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:09,346 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:10,418 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:11,349 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:13,093 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:27:13,094 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:27:13,095 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:27:13,097 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:27:13,354 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:27:14,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:27:14,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:27:15,356 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:15,985 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:20,986 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:25,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:29,316 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:27:29,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:27:29,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:27:30,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:33,375 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:35,851 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:27:35,852 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:27:35,853 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:27:35,854 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:27:36,381 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:27:36,855 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:37,382 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:41,856 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:44,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:27:44,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:27:47,018 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:52,019 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:55,402 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:27:57,369 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:27:58,785 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:27:58,786 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:27:58,787 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:27:58,789 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:27:59,335 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:27:59,408 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:27:59,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:27:59,913 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:28:01,410 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:28:03,001 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:08,001 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:13,002 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:14,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:28:14,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:28:18,292 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:19,434 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:28:21,694 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:28:21,695 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:28:21,695 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:28:21,697 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:28:22,439 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:28:23,440 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:28:23,699 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:28,700 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:29,320 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:28:29,913 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:28:29,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:28:33,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:38,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:41,462 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:28:44,029 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:44,138 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:28:44,139 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:28:44,140 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:28:44,142 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:28:44,468 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:28:44,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:28:44,914 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:28:45,469 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:28:49,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:54,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:28:59,321 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:28:59,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:28:59,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:29:00,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:05,489 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:05,515 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:06,920 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:29:06,921 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:29:06,921 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:29:06,923 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:29:07,492 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:29:09,494 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:10,924 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:14,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:29:14,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:29:15,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:20,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:26,336 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:27,518 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:29,324 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:29:29,720 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:29:29,721 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:29:29,721 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:29:29,723 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:29:29,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:29:29,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:29:30,522 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:29:31,524 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:31,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:36,987 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:41,988 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:44,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:29:44,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:29:46,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:49,544 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:52,218 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:52,641 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:29:52,642 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:29:52,642 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:29:52,644 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:29:53,551 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:29:53,551 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:55,553 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:29:57,645 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:29:59,326 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:29:59,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:29:59,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:30:02,994 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:07,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:13,190 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:13,576 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:14,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:30:14,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:30:15,624 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:30:15,640 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:30:15,641 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:30:15,643 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:30:16,581 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:30:17,582 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:18,644 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:23,644 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:28,645 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:29,328 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:30:29,915 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:30:29,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:30:34,355 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:35,603 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:39,415 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:43,614 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:43,644 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:30:43,645 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:30:43,645 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:30:43,647 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:30:44,447 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:44,615 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:30:44,914 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:30:44,915 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:30:45,617 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:48,828 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:30:48,829 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:30:48,830 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:30:48,831 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:30:49,621 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:30:49,832 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:51,624 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:30:54,833 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:30:59,330 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:30:59,915 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:30:59,916 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:30:59,995 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:04,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:09,646 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:10,275 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:11,675 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:31:11,676 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:31:11,676 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:31:11,678 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:31:12,653 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:31:13,654 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:14,915 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:31:14,916 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:31:15,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:20,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:25,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:29,332 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:31:29,915 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:31:29,916 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:31:31,042 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:31,677 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:34,462 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:31:34,463 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:31:34,464 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:31:34,465 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:31:34,683 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:31:35,684 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:36,466 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:41,467 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:44,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:31:44,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:31:46,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:51,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:55,708 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:57,199 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:31:57,596 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:31:57,597 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:31:57,597 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:31:57,599 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:31:57,733 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:31:59,334 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:31:59,735 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:31:59,915 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:31:59,916 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:32:02,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:07,999 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:13,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:14,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:32:14,916 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:32:17,753 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:32:18,936 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:20,369 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:32:20,370 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:32:20,370 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:32:20,372 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:32:20,757 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:32:21,758 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:32:24,373 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:29,373 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:29,375 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:32:29,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:32:29,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:32:34,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:40,189 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:41,780 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:32:43,615 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:32:43,616 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:32:43,617 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:32:43,618 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:32:43,783 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:32:44,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:32:44,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:32:45,785 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:32:45,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:50,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:55,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:32:59,338 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:32:59,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:32:59,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:33:01,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:03,803 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:33:06,310 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:33:06,311 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:33:06,311 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:33:06,314 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:33:06,807 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:33:07,315 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:07,808 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:33:12,316 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:14,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:33:14,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:33:18,023 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:23,024 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:25,825 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:33:28,746 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:29,173 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:33:29,174 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:33:29,174 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:33:29,176 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:33:29,340 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:33:29,830 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:33:29,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:33:29,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:33:31,832 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:33:33,997 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:38,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:43,999 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:44,916 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:33:44,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:33:49,851 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:33:49,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:54,999 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:33:59,342 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:33:59,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:33:59,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:34:00,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:05,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:10,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:14,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:34:14,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:34:16,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:21,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:27,221 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:27,896 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:34:29,344 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:34:29,899 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:34:29,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:34:29,917 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:34:31,903 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:34:31,904 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:34:31,905 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:34:31,906 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:34:32,903 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:34:32,907 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:33,904 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:34:37,908 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:42,909 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:44,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:34:44,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:34:47,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:51,928 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:34:53,333 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:54,727 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:34:54,728 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:34:54,728 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:34:54,730 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:34:54,932 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:34:55,933 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:34:58,731 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:34:59,346 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:34:59,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:34:59,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:35:03,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:08,996 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:13,955 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:14,745 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:14,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:35:14,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:35:19,989 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:23,122 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:35:23,124 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:35:23,124 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:35:23,126 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:35:23,970 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:35:23,970 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:25,968 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:25,972 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:28,352 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:35:28,353 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:35:28,354 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:35:28,355 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:35:28,976 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:35:29,348 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:35:29,917 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:35:29,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:35:29,977 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:30,992 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:35,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:40,994 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:44,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:35:44,919 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:35:46,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:48,001 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:51,251 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:51,349 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:35:51,351 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:35:51,352 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:35:51,353 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:35:52,007 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:35:54,009 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:35:56,355 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:35:59,350 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:35:59,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:35:59,919 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:36:01,990 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:06,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:12,032 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:36:12,504 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:13,929 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:36:13,931 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:36:13,931 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:36:13,933 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:36:14,035 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:36:14,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:36:14,918 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:36:16,037 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:36:17,998 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:22,999 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:28,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:29,352 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:36:29,919 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:36:29,920 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:36:33,354 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:34,061 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:36:36,714 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:36:36,715 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:36:36,716 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:36:36,718 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:36:37,066 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:36:38,067 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:36:38,719 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:43,720 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:44,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:36:44,919 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:36:48,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:53,991 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:56,091 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:36:59,266 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:36:59,375 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:36:59,386 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:36:59,387 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:36:59,387 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:36:59,390 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:36:59,918 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:36:59,919 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:37:00,097 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:37:02,099 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:37:04,992 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:09,993 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:14,919 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:37:14,920 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:37:15,002 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:20,121 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:37:20,632 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:22,032 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:37:22,033 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:37:22,034 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:37:22,036 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:37:22,126 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:37:24,128 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:37:26,038 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:29,356 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:37:29,919 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:37:29,919 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:37:32,000 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:37,001 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:42,150 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:37:42,657 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:44,919 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:37:44,920 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:37:45,086 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 01:37:45,088 DEBUG   SenderThread:3304483 [sender.py:send():375] send: history
+2023-05-26 01:37:45,088 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 01:37:45,090 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:37:45,156 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:37:46,157 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:37:48,091 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:53,091 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:58,092 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:37:59,358 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:37:59,919 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 01:37:59,920 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 01:38:02,529 DEBUG   SenderThread:3304483 [sender.py:send():375] send: exit
+2023-05-26 01:38:02,530 INFO    SenderThread:3304483 [sender.py:send_exit():598] handling exit code: 255
+2023-05-26 01:38:02,530 INFO    SenderThread:3304483 [sender.py:send_exit():600] handling runtime: 19984
+2023-05-26 01:38:02,531 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:38:02,532 INFO    SenderThread:3304483 [sender.py:send_exit():606] send defer
+2023-05-26 01:38:02,532 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,532 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-26 01:38:02,532 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,532 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-26 01:38:02,533 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 1
+2023-05-26 01:38:02,533 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,533 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-26 01:38:02,533 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,533 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-26 01:38:02,533 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 2
+2023-05-26 01:38:02,533 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,533 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-26 01:38:02,533 INFO    HandlerThread:3304483 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-26 01:38:02,533 DEBUG   SystemMonitor:3304483 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-26 01:38:02,534 DEBUG   SystemMonitor:3304483 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-26 01:38:02,536 INFO    HandlerThread:3304483 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-26 01:38:02,536 INFO    HandlerThread:3304483 [interfaces.py:finish():202] Joined disk monitor
+2023-05-26 01:38:02,850 INFO    HandlerThread:3304483 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-26 01:38:02,850 INFO    HandlerThread:3304483 [interfaces.py:finish():202] Joined memory monitor
+2023-05-26 01:38:02,851 INFO    HandlerThread:3304483 [interfaces.py:finish():202] Joined network monitor
+2023-05-26 01:38:02,852 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,852 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-26 01:38:02,852 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 3
+2023-05-26 01:38:02,852 DEBUG   SenderThread:3304483 [sender.py:send():375] send: stats
+2023-05-26 01:38:02,853 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,853 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-26 01:38:02,853 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,853 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-26 01:38:02,853 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 4
+2023-05-26 01:38:02,853 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,853 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-26 01:38:02,854 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,854 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-26 01:38:02,854 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 5
+2023-05-26 01:38:02,854 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,854 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-26 01:38:02,854 DEBUG   SenderThread:3304483 [sender.py:send():375] send: summary
+2023-05-26 01:38:02,856 INFO    SenderThread:3304483 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 01:38:02,856 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,856 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-26 01:38:02,856 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 6
+2023-05-26 01:38:02,856 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,856 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-26 01:38:02,857 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,857 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-26 01:38:02,857 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 7
+2023-05-26 01:38:02,857 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 01:38:02,857 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:02,857 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-26 01:38:02,857 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:02,858 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-26 01:38:03,177 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:38:03,530 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 01:38:03,862 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 8
+2023-05-26 01:38:03,862 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 01:38:03,862 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:03,862 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-26 01:38:03,863 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:03,863 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-26 01:38:03,920 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 9
+2023-05-26 01:38:03,920 DEBUG   SenderThread:3304483 [sender.py:send():375] send: artifact
+2023-05-26 01:38:03,920 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:03,923 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-26 01:38:04,178 INFO    Thread-12 :3304483 [dir_watcher.py:_on_file_modified():295] file/dir modified: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:38:04,420 INFO    SenderThread:3304483 [sender.py:send_artifact():1474] sent artifact job-https___github.com_HaoRyanLi_ERA5_PredRNN.git_predrnn-pytorch_run1.py - {'id': 'QXJ0aWZhY3Q6NDY2OTI3NjA0', 'digest': '4960f4c5f7b8aacb48bda65c6f75ce8b', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_HaoRyanLi_ERA5_PredRNN.git_predrnn-pytorch_run1.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_HaoRyanLi_ERA5_PredRNN.git_predrnn-pytorch_run1.py', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDc1NzIw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDY2OTI3NjA0', 'versionIndex': 2}}, 'version': 'v2'}
+2023-05-26 01:38:04,420 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:04,420 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-26 01:38:04,420 INFO    SenderThread:3304483 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-26 01:38:04,530 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 01:38:05,180 INFO    SenderThread:3304483 [dir_watcher.py:finish():395] scan: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files
+2023-05-26 01:38:05,181 INFO    SenderThread:3304483 [dir_watcher.py:finish():409] scan save: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log output.log
+2023-05-26 01:38:05,181 INFO    SenderThread:3304483 [dir_watcher.py:finish():409] scan save: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/requirements.txt requirements.txt
+2023-05-26 01:38:05,181 INFO    SenderThread:3304483 [dir_watcher.py:finish():409] scan save: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-metadata.json wandb-metadata.json
+2023-05-26 01:38:05,181 INFO    SenderThread:3304483 [dir_watcher.py:finish():409] scan save: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/config.yaml config.yaml
+2023-05-26 01:38:05,185 INFO    SenderThread:3304483 [dir_watcher.py:finish():409] scan save: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json wandb-summary.json
+2023-05-26 01:38:05,189 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 10
+2023-05-26 01:38:05,193 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 01:38:05,194 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:05,194 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-26 01:38:05,199 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:05,199 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-26 01:38:05,199 INFO    SenderThread:3304483 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-26 01:38:05,531 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 01:38:05,532 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 01:38:05,692 INFO    wandb-upload_3:3304483 [upload_job.py:push():137] Uploaded file /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/wandb-summary.json
+2023-05-26 01:38:05,714 INFO    wandb-upload_2:3304483 [upload_job.py:push():137] Uploaded file /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/config.yaml
+2023-05-26 01:38:05,740 INFO    wandb-upload_0:3304483 [upload_job.py:push():137] Uploaded file /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/output.log
+2023-05-26 01:38:05,748 INFO    wandb-upload_1:3304483 [upload_job.py:push():137] Uploaded file /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/files/requirements.txt
+2023-05-26 01:38:05,949 INFO    Thread-11 :3304483 [sender.py:transition_state():626] send defer: 11
+2023-05-26 01:38:05,950 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:05,950 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-26 01:38:05,950 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:05,950 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-26 01:38:05,951 INFO    SenderThread:3304483 [file_pusher.py:join():173] waiting for file pusher
+2023-05-26 01:38:05,951 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 12
+2023-05-26 01:38:05,951 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:05,951 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-26 01:38:05,951 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:05,951 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-26 01:38:06,293 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 13
+2023-05-26 01:38:06,293 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:06,293 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-26 01:38:06,294 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:06,294 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-26 01:38:06,294 INFO    SenderThread:3304483 [sender.py:transition_state():626] send defer: 14
+2023-05-26 01:38:06,295 DEBUG   SenderThread:3304483 [sender.py:send():375] send: final
+2023-05-26 01:38:06,295 DEBUG   SenderThread:3304483 [sender.py:send():375] send: footer
+2023-05-26 01:38:06,295 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 01:38:06,295 INFO    HandlerThread:3304483 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-26 01:38:06,295 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: defer
+2023-05-26 01:38:06,295 INFO    SenderThread:3304483 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-26 01:38:06,296 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 01:38:06,296 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 01:38:06,296 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 01:38:06,297 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 01:38:06,297 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: server_info
+2023-05-26 01:38:06,297 DEBUG   SenderThread:3304483 [sender.py:send_request():402] send_request: server_info
+2023-05-26 01:38:06,297 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-26 01:38:06,300 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-26 01:38:06,369 INFO    MainThread:3304483 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-05-26 01:38:06,369 INFO    MainThread:3304483 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-05-26 01:38:06,370 INFO    MainThread:3304483 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-05-26 01:38:06,370 DEBUG   HandlerThread:3304483 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-26 01:38:06,370 INFO    HandlerThread:3304483 [handler.py:finish():845] shutting down handler
+2023-05-26 01:38:07,297 INFO    WriterThread:3304483 [datastore.py:close():298] close: /work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/wandb/run-20230525_200457-5dy4rvft/run-5dy4rvft.wandb
+2023-05-26 01:38:07,369 INFO    SenderThread:3304483 [sender.py:finish():1550] shutting down sender
+2023-05-26 01:38:07,369 INFO    SenderThread:3304483 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-26 01:38:07,369 INFO    SenderThread:3304483 [file_pusher.py:join():173] waiting for file pusher

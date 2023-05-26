@@ -16,7 +16,7 @@ python -u run1.py \
     --device cuda:0 \
     --dataset_name mnist \
     --train_data_paths ${train_data_paths} \
-    --valid_data_paths /scratch/09012/haoli1/ERA5/val_dataset/era5_train_2022_3_24hr.npz \
+    --valid_data_paths /scratch/09012/haoli1/ERA5/val_dataset_6hrs/era5_train_2022_3_24hr.npz \
     --save_data_name 2022_3 \
     --extra_var_paths /scratch/09012/haoli1/ERA5/exta_var.npz\
     --gen_frm_dir ${load_path} \
@@ -25,10 +25,10 @@ python -u run1.py \
     --model_name predrnn_v2 \
     --reverse_input 0 \
     --batch_size 2 \
-    --test_batch_size 3\
+    --test_batch_size 6\
     --gpu_num 3\
     --is_WV 1 \
-    --press_constraint 0 \
+    --press_constraint 1 \
     --center_enhance 0 \
     --patch_size 40 \
     --weighted_loss 1 \
@@ -65,7 +65,7 @@ python -u run1.py \
     --res_on_conv 0 \
     --multiply 1.1 \
     --pretrained_model ${load_path} \
-    --pretrained_model_name model_8000.ckpt \
+    --pretrained_model_name model_wv1_pc1.ckpt \
     # --pretrained_model_name model_test_schedule_sampling_DynaMean.ckpt \
 
 #cp /scratch/network/hvtran/era5/predrnn-pytorch/checkpoints/era5_predrnn/model.ckpt-1000 /home/hvtran/

@@ -27,7 +27,7 @@ python -u run1.py \
     --center_enhance 0 \
     --patch_size 40 \
     --weighted_loss 1 \
-    --upload_run 0 \
+    --upload_run 1 \
     --layer_need_enhance 1 \
     --find_max False \
     --multiply 2 \

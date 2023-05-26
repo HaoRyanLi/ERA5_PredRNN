@@ -5597,3 +5597,500 @@ The modified gen p mean: 0.45880183577537537, gen p mean: 0.0, mean p set: 0.448
 The modified gen p mean: 0.4616188108921051, gen p mean: 0.0, mean p set: 0.448
 loss_pred:0.050333719700574875, decouple_loss:0.02476314641535282
 loss_pred:0.05107859894633293, decouple_loss:0.02557484433054924
+loss_pred:0.05370450019836426, decouple_loss:0.025465313345193863
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1984_3_24hr.npz
+mnist train iterator, Loading data from /scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1984_3_24hr.npz
+NaN value num: 0
+Iteration: 698, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4516821503639221, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44811055064201355, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052475519478321075, decouple_loss:0.02637336589396
+The modified gen p mean: 0.4508105516433716, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05107570067048073, decouple_loss:0.02542814426124096
+loss_pred:0.05193505808711052, decouple_loss:0.025789516046643257
+Iteration: 699, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44570299983024597, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44169825315475464, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4486660957336426, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.04981977865099907, decouple_loss:0.027109894901514053
+loss_pred:0.051331475377082825, decouple_loss:0.027789173647761345
+loss_pred:0.051731809973716736, decouple_loss:0.027040433138608932
+Iteration: 700, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4552079737186432, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45419660210609436, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44961628317832947, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05031237378716469, decouple_loss:0.027787650004029274
+loss_pred:0.050573911517858505, decouple_loss:0.02770024724304676
+loss_pred:0.050679609179496765, decouple_loss:0.026805264875292778
+2023-05-26 01:13:10 testing...
+The modified gen p mean: 0.44797709584236145, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.447831928730011, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.448200523853302, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.053921740502119064, decouple_loss:0.028947191312909126
+loss_pred:0.05135758966207504, decouple_loss:0.027117647230625153
+loss_pred:0.052204132080078125, decouple_loss:0.02819308079779148
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.05389878898859024, avg_mse: 0.056835103780031204
+current test mse: 0.056835
+Iteration: 701, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44120264053344727, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44286292791366577, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4455086886882782, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.0511927604675293, decouple_loss:0.025605646893382072
+loss_pred:0.0499594584107399, decouple_loss:0.027442753314971924
+loss_pred:0.051391977816820145, decouple_loss:0.026695331558585167
+Iteration: 702, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4374329149723053, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4411481022834778, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43686580657958984, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052115291357040405, decouple_loss:0.025794122368097305
+loss_pred:0.05149442330002785, decouple_loss:0.02558116428554058
+loss_pred:0.050127677619457245, decouple_loss:0.025437336415052414
+Iteration: 703, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44545477628707886, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44743409752845764, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4488949179649353, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.050519514828920364, decouple_loss:0.026342153549194336
+loss_pred:0.05077185109257698, decouple_loss:0.03353751823306084
+loss_pred:0.05008220672607422, decouple_loss:0.027960190549492836
+Iteration: 704, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45245984196662903, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4490017294883728, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4508867859840393, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05202117934823036, decouple_loss:0.028069689869880676
+loss_pred:0.050409652292728424, decouple_loss:0.02578464336693287
+loss_pred:0.049892351031303406, decouple_loss:0.026879675686359406
+Iteration: 705, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45111531019210815, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45072999596595764, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4482877552509308, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.050333376973867416, decouple_loss:0.026449143886566162
+loss_pred:0.052000340074300766, decouple_loss:0.026016514748334885
+loss_pred:0.04953865334391594, decouple_loss:0.028288697823882103
+Iteration: 706, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44896039366722107, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44949764013290405, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44836607575416565, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.04981151968240738, decouple_loss:0.02562795765697956
+loss_pred:0.05011953413486481, decouple_loss:0.02712300419807434
+loss_pred:0.049414586275815964, decouple_loss:0.026718629524111748
+Iteration: 707, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44117406010627747, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4453832507133484, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4436064660549164, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.050810519605875015, decouple_loss:0.02512260340154171
+loss_pred:0.05114390701055527, decouple_loss:0.027695532888174057
+loss_pred:0.05066635087132454, decouple_loss:0.026446186006069183
+Iteration: 708, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44813549518585205, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4450467824935913, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4427044987678528, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05167986825108528, decouple_loss:0.026988843455910683
+loss_pred:0.051871176809072495, decouple_loss:0.027047984302043915
+loss_pred:0.05140861123800278, decouple_loss:0.026437535881996155
+Iteration: 709, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44502368569374084, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4403861463069916, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44283440709114075, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05270491540431976, decouple_loss:0.0262641329318285
+loss_pred:0.049498289823532104, decouple_loss:0.026543954387307167
+loss_pred:0.05150287598371506, decouple_loss:0.027448302134871483
+Iteration: 710, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45006507635116577, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4508141279220581, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45379966497421265, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05030687898397446, decouple_loss:0.02548549324274063
+loss_pred:0.050435710698366165, decouple_loss:0.026041662320494652
+loss_pred:0.050364889204502106, decouple_loss:0.026061514392495155
+2023-05-26 01:17:08 testing...
+The modified gen p mean: 0.4492584764957428, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44930481910705566, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4492405652999878, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05368559807538986, decouple_loss:0.028142260387539864
+loss_pred:0.05135452747344971, decouple_loss:0.02646016515791416
+loss_pred:0.05199896916747093, decouple_loss:0.027319660410284996
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.05371173471212387, avg_mse: 0.05678512156009674
+current test mse: 0.056785
+Iteration: 711, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44080600142478943, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4458039402961731, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4427061378955841, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052479010075330734, decouple_loss:0.027040937915444374loss_pred:0.04960709065198898, decouple_loss:0.025468984618782997
+loss_pred:0.05085807293653488, decouple_loss:0.02451936900615692
+Iteration: 712, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45460227131843567, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4503452181816101, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4490443170070648, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05010050907731056, decouple_loss:0.02663266286253929
+loss_pred:0.050593990832567215, decouple_loss:0.027194594964385033
+loss_pred:0.05220649763941765, decouple_loss:0.028054015710949898
+Iteration: 713, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4413188099861145, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43686583638191223, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4392978250980377, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.050892092287540436, decouple_loss:0.026108693331480026
+loss_pred:0.04996945336461067, decouple_loss:0.027400609105825424
+loss_pred:0.05127369984984398, decouple_loss:0.025118201971054077
+Iteration: 714, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.452058345079422, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4497043788433075, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44793054461479187, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05136728659272194, decouple_loss:0.02663252130150795
+loss_pred:0.052108410745859146, decouple_loss:0.025869667530059814
+loss_pred:0.05009064823389053, decouple_loss:0.028398994356393814
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1996_3_24hr.npz
+mnist train iterator, Loading data from /scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1996_3_24hr.npz
+NaN value num: 0
+Iteration: 715, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45191532373428345, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.46051210165023804, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05221913754940033, decouple_loss:0.02773388661444187
+The modified gen p mean: 0.46078360080718994, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05198407918214798, decouple_loss:0.026021506637334824
+loss_pred:0.05391960218548775, decouple_loss:0.029644081369042397
+Iteration: 716, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4467814266681671, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44474220275878906, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44284993410110474, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051024213433265686, decouple_loss:0.028562216088175774
+loss_pred:0.05270396173000336, decouple_loss:0.02780013158917427
+loss_pred:0.053380776196718216, decouple_loss:0.028520163148641586
+Iteration: 717, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4392875134944916, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.441629558801651, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4394727349281311, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.0548589862883091, decouple_loss:0.0266372449696064
+loss_pred:0.051423460245132446, decouple_loss:0.026148930191993713
+loss_pred:0.05151122435927391, decouple_loss:0.025629885494709015
+Iteration: 718, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4464133083820343, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44792690873146057, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4491231143474579, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05196942761540413, decouple_loss:0.02829958312213421
+loss_pred:0.05178159475326538, decouple_loss:0.027589885517954826
+loss_pred:0.053782619535923004, decouple_loss:0.02728552743792534
+Iteration: 719, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4442709684371948, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45482227206230164, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45306095480918884, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05311781167984009, decouple_loss:0.027818098664283752
+loss_pred:0.05289333313703537, decouple_loss:0.025581736117601395
+loss_pred:0.05163140222430229, decouple_loss:0.026463760063052177
+Iteration: 720, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4382339119911194, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43486693501472473, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4353056252002716, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05339007079601288, decouple_loss:0.030494449660182
+loss_pred:0.05269788205623627, decouple_loss:0.029942169785499573
+loss_pred:0.0536365881562233, decouple_loss:0.02675769105553627
+2023-05-26 01:21:55 testing...
+The modified gen p mean: 0.45515596866607666, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45445680618286133, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4546727240085602, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05118238925933838, decouple_loss:0.027581457048654556
+loss_pred:0.053507108241319656, decouple_loss:0.028716983273625374
+loss_pred:0.05185103788971901, decouple_loss:0.028129104524850845
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.053587302565574646, avg_mse: 0.05664875730872154
+current test mse: 0.056649
+Iteration: 721, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4516063332557678, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4525236189365387, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4468459486961365, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05239632725715637, decouple_loss:0.028718972578644753
+loss_pred:0.05409815162420273, decouple_loss:0.027614464983344078
+loss_pred:0.05067900940775871, decouple_loss:0.02786797657608986
+Iteration: 722, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4624916613101959, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4595210552215576, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4643925130367279, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.054209642112255096, decouple_loss:0.02909252978861332
+loss_pred:0.05371495336294174, decouple_loss:0.030875911936163902
+loss_pred:0.05310167744755745, decouple_loss:0.026611749082803726
+Iteration: 723, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45329925417900085, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4509130120277405, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4486510455608368, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.053148478269577026, decouple_loss:0.027164705097675323
+loss_pred:0.052015140652656555, decouple_loss:0.02633323147892952
+loss_pred:0.050346482545137405, decouple_loss:0.02677212469279766
+Iteration: 724, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.43325966596603394, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43956705927848816, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43816471099853516, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052817948162555695, decouple_loss:0.02900676615536213
+loss_pred:0.051609352231025696, decouple_loss:0.02722880057990551
+loss_pred:0.05284642428159714, decouple_loss:0.028530970215797424
+Iteration: 725, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4524090886116028, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45261579751968384, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4559038579463959, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05314799025654793, decouple_loss:0.02704247459769249
+loss_pred:0.052222516387701035, decouple_loss:0.029092883691191673
+loss_pred:0.05294892191886902, decouple_loss:0.029340313747525215
+Iteration: 726, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45317450165748596, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44989272952079773, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45106032490730286, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05287735164165497, decouple_loss:0.02717391960322857
+loss_pred:0.053150475025177, decouple_loss:0.028259992599487305
+loss_pred:0.0522792711853981, decouple_loss:0.028284912928938866
+Iteration: 727, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4439592957496643, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4409638047218323, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4381788671016693, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05214632675051689, decouple_loss:0.02819770947098732
+loss_pred:0.05412495881319046, decouple_loss:0.02743159979581833
+loss_pred:0.05118589848279953, decouple_loss:0.028152309358119965
+Iteration: 728, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4412280321121216, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.443036824464798, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4448036551475525, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052823930978775024, decouple_loss:0.027885088697075844
+loss_pred:0.05150948092341423, decouple_loss:0.02783650904893875
+loss_pred:0.05090617015957832, decouple_loss:0.028973113745450974
+Iteration: 729, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.46228456497192383, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4615579843521118, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45950356125831604, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.053701791912317276, decouple_loss:0.029372533783316612
+loss_pred:0.05209282040596008, decouple_loss:0.02842460386455059
+loss_pred:0.05278107151389122, decouple_loss:0.026352431625127792
+Iteration: 730, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45075318217277527, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4479200839996338, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4476655423641205, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05135753005743027, decouple_loss:0.026013396680355072
+loss_pred:0.053556252270936966, decouple_loss:0.026926448568701744
+loss_pred:0.05213094502687454, decouple_loss:0.02899950183928013
+2023-05-26 01:25:55 testing...
+The modified gen p mean: 0.44230085611343384, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44207867980003357, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44187355041503906, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05107841640710831, decouple_loss:0.02759907767176628
+loss_pred:0.05355656147003174, decouple_loss:0.02906746417284012
+loss_pred:0.05179257318377495, decouple_loss:0.028783299028873444
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.05356668680906296, avg_mse: 0.05678169056773186
+current test mse: 0.056782
+Iteration: 731, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4409034252166748, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4358614981174469, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43031877279281616, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05124799162149429, decouple_loss:0.028619688004255295loss_pred:0.05076121166348457, decouple_loss:0.0284375362098217
+loss_pred:0.051250994205474854, decouple_loss:0.0308653824031353
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1991_3_24hr.npz
+mnist train iterator, Loading data from /scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1991_3_24hr.npz
+NaN value num: 0
+Iteration: 732, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.446347177028656, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45113930106163025, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4504585266113281, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05051100254058838, decouple_loss:0.02789309062063694
+loss_pred:0.052636705338954926, decouple_loss:0.02784566767513752loss_pred:0.05022792890667915, decouple_loss:0.026825424283742905
+Iteration: 733, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4561876058578491, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4567587971687317, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4540373682975769, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05380722135305405, decouple_loss:0.02754904143512249
+loss_pred:0.05060017108917236, decouple_loss:0.028453519567847252
+loss_pred:0.05290987715125084, decouple_loss:0.027749676257371902
+Iteration: 734, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44790372252464294, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4532579481601715, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44977355003356934, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05169787257909775, decouple_loss:0.02724626287817955
+loss_pred:0.05077673867344856, decouple_loss:0.02767130732536316
+loss_pred:0.052236586809158325, decouple_loss:0.0308531504124403
+Iteration: 735, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4361017644405365, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44130244851112366, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43892693519592285, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051936473697423935, decouple_loss:0.02825370617210865
+loss_pred:0.05385766178369522, decouple_loss:0.028469953685998917
+loss_pred:0.05229642614722252, decouple_loss:0.027256881818175316
+Iteration: 736, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44953253865242004, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4421347379684448, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4444679319858551, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052175551652908325, decouple_loss:0.030192794278264046
+loss_pred:0.05159161239862442, decouple_loss:0.0277712345123291
+loss_pred:0.04971104860305786, decouple_loss:0.028858255594968796
+Iteration: 737, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45973917841911316, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45400968194007874, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4510819613933563, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052325524389743805, decouple_loss:0.027126949280500412
+loss_pred:0.0526173897087574, decouple_loss:0.02754632756114006
+loss_pred:0.05194511264562607, decouple_loss:0.02842259779572487
+Iteration: 738, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4522850811481476, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4517221450805664, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4507403075695038, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05050991475582123, decouple_loss:0.027225367724895477
+loss_pred:0.051325723528862, decouple_loss:0.027928834781050682
+loss_pred:0.05128205940127373, decouple_loss:0.026976900175213814
+Iteration: 739, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44398239254951477, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4390076696872711, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43839508295059204, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051007285714149475, decouple_loss:0.02937513217329979
+loss_pred:0.05123962089419365, decouple_loss:0.026375573128461838
+loss_pred:0.051907818764448166, decouple_loss:0.027017811313271523
+Iteration: 740, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4417305588722229, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44922658801078796, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.444787859916687, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051911212503910065, decouple_loss:0.028716228902339935
+loss_pred:0.052210092544555664, decouple_loss:0.029731228947639465
+loss_pred:0.05172203481197357, decouple_loss:0.028257139027118683
+2023-05-26 01:30:33 testing...
+The modified gen p mean: 0.4510689973831177, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45177069306373596, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.451312392950058, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05093006417155266, decouple_loss:0.02668113261461258
+loss_pred:0.053304534405469894, decouple_loss:0.027871450409293175
+loss_pred:0.051779694855213165, decouple_loss:0.02762485109269619
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.05337439104914665, avg_mse: 0.05667765811085701
+current test mse: 0.056678
+Iteration: 741, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4506826400756836, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4414571225643158, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4414019286632538, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05137774720788002, decouple_loss:0.026921642944216728
+loss_pred:0.053400903940200806, decouple_loss:0.028285354375839233
+loss_pred:0.05369948595762253, decouple_loss:0.029879262670874596
+Iteration: 742, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45310303568840027, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44882336258888245, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44629865884780884, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05005481839179993, decouple_loss:0.025637591257691383
+loss_pred:0.049944277852773666, decouple_loss:0.026221729815006256
+loss_pred:0.04995869845151901, decouple_loss:0.027338247746229172
+Iteration: 743, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4483909010887146, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45377233624458313, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45424532890319824, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.04969441518187523, decouple_loss:0.02520369365811348
+loss_pred:0.05152658745646477, decouple_loss:0.028015509247779846
+loss_pred:0.054437581449747086, decouple_loss:0.027773045003414154
+Iteration: 744, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4482801854610443, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4504784941673279, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4443541169166565, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.050858646631240845, decouple_loss:0.027454478666186333
+loss_pred:0.049175530672073364, decouple_loss:0.029304154217243195
+loss_pred:0.05169606953859329, decouple_loss:0.029128924012184143
+Iteration: 745, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45148366689682007, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4519427418708801, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4541116952896118, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05097188428044319, decouple_loss:0.028033673763275146
+loss_pred:0.04983499273657799, decouple_loss:0.027886558324098587
+loss_pred:0.05152100324630737, decouple_loss:0.029258405789732933
+Iteration: 746, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.43488115072250366, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.43440312147140503, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4346633553504944, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.053144630044698715, decouple_loss:0.029557297006249428
+loss_pred:0.04998268559575081, decouple_loss:0.026962116360664368
+loss_pred:0.054406337440013885, decouple_loss:0.027763834223151207
+Iteration: 747, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4464457035064697, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44706323742866516, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4453829228878021, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052337393164634705, decouple_loss:0.02858746238052845
+loss_pred:0.051889754831790924, decouple_loss:0.029297659173607826
+loss_pred:0.05202585458755493, decouple_loss:0.027402525767683983
+Iteration: 748, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4628632068634033, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.456295907497406, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45736801624298096, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.0514877550303936, decouple_loss:0.028775470331311226
+loss_pred:0.052603453397750854, decouple_loss:0.029467450454831123
+loss_pred:0.05178702622652054, decouple_loss:0.028667734935879707
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1995_3_24hr.npz
+mnist train iterator, Loading data from /scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1995_3_24hr.npz
+NaN value num: 0
+Iteration: 749, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44945159554481506, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44255301356315613, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45108240842819214, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05141063034534454, decouple_loss:0.02877570129930973
+loss_pred:0.05097777768969536, decouple_loss:0.031190549954771996
+loss_pred:0.05195720121264458, decouple_loss:0.028192805126309395
+Iteration: 750, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4488309323787689, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4452469050884247, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4367729127407074, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05112210661172867, decouple_loss:0.027901286259293556
+loss_pred:0.04933328926563263, decouple_loss:0.02831920050084591
+loss_pred:0.05118685960769653, decouple_loss:0.029839204624295235
+2023-05-26 01:35:12 testing...
+The modified gen p mean: 0.4511544108390808, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45207679271698, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.451517254114151, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.0508216917514801, decouple_loss:0.02980075217783451
+loss_pred:0.05322675034403801, decouple_loss:0.030847690999507904
+loss_pred:0.0515158474445343, decouple_loss:0.030435241758823395
+WV_0_PC_0_EH_0_PS_40_6hrs, loss: 0.0533728264272213, avg_mse: 0.05649875849485397
+current test mse: 0.056499
+Iteration: 751, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44667598605155945, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45193397998809814, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4382755160331726, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05209272354841232, decouple_loss:0.029428012669086456
+loss_pred:0.05146981403231621, decouple_loss:0.030041003599762917
+loss_pred:0.05089650675654411, decouple_loss:0.028607212007045746
+Iteration: 752, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4507330060005188, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.45566272735595703, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44629165530204773, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051680076867341995, decouple_loss:0.027295781299471855
+loss_pred:0.05145760998129845, decouple_loss:0.0286690853536129
+loss_pred:0.0507122166454792, decouple_loss:0.02869364432990551
+Iteration: 753, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44797277450561523, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44886720180511475, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4511166512966156, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.053114816546440125, decouple_loss:0.029439181089401245
+loss_pred:0.05264577642083168, decouple_loss:0.02810537815093994
+loss_pred:0.05062587931752205, decouple_loss:0.028864959254860878
+Iteration: 754, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45173007249832153, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44965147972106934, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44545039534568787, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.052671320736408234, decouple_loss:0.02754267305135727
+loss_pred:0.05307343229651451, decouple_loss:0.028684163466095924
+loss_pred:0.0535125806927681, decouple_loss:0.030758557841181755
+Iteration: 755, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4470268487930298, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4522104263305664, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4485209584236145, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.051549751311540604, decouple_loss:0.02932562492787838
+loss_pred:0.05040428042411804, decouple_loss:0.02972203865647316
+loss_pred:0.05026229843497276, decouple_loss:0.03160189092159271
+Iteration: 756, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.44347894191741943, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4432898163795471, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.44324666261672974, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.0524088591337204, decouple_loss:0.027881834656000137
+loss_pred:0.05373881384730339, decouple_loss:0.029885578900575638
+loss_pred:0.053860679268836975, decouple_loss:0.027600357308983803
+Iteration: 757, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4526585042476654, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4536096155643463, gen p mean: 0.0, mean p set: 0.448
+The modified gen p mean: 0.4466089904308319, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.05300253629684448, decouple_loss:0.02943592332303524
+loss_pred:0.05229758843779564, decouple_loss:0.028130531311035156
+loss_pred:0.05235212296247482, decouple_loss:0.02937096171081066
+Traceback (most recent call last):
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 404, in <module>
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 289, in train_wrapper
+    # else:
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/trainer.py", line 26, in train
+    model.train(ims, real_input_flag, extra_var)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/models/model_factory_multiGPU.py", line 71, in train
+    loss.mean().backward()
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

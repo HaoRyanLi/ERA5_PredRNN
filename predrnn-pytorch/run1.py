@@ -1,7 +1,7 @@
 import tensorflow as tf
 tf.config.list_physical_devices('GPU')
 import os,sys
-# os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:1024"
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
 
 import shutil
 import argparse

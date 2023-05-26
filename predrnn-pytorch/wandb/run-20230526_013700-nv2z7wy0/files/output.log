@@ -1,0 +1,120 @@
+load model: /work/09012/haoli1/ls6/PredRNN_checkpoints/WV_1_PC_0_EH_0_PS_40_6hrs/model_6000.ckpt
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1979_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1979_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1980_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1980_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1981_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1981_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1982_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1982_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1983_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1983_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1984_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1984_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1985_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1985_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1986_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1986_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1987_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1987_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1988_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1988_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1989_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1989_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1990_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1990_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1991_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1991_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1992_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1992_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1993_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1993_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1994_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1994_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1995_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1995_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1996_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1996_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1997_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1997_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1998_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1998_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1999_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1999_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2000_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2000_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2001_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2001_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2002_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2002_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2003_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2003_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2004_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2004_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2005_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2005_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2006_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2006_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2007_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2007_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2008_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2008_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2009_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2009_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2010_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2010_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2011_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2011_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2012_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2012_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2013_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2013_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2014_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2014_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2015_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2015_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2016_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2016_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2017_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2017_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2018_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2018_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2019_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2019_3_24hr_shift3.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2020_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2020_3_24hr_shift3.npz
+train_data_files nums: 84
+mnist test iterator, Loading data from /scratch/09012/haoli1/ERA5/val_dataset_6hrs/era5_train_2022_3_24hr.npz
+NaN value num: 0
+mnist train iterator, Loading data from /scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2015_3_24hr_shift3.npz
+NaN value num: 0
+Iteration: 1, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.4526785910129547, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.03424575552344322, decouple_loss:0.0027165487408638
+The modified gen p mean: 0.45003020763397217, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.036846790462732315, decouple_loss:0.002563313813880086
+The modified gen p mean: 0.44894006848335266, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.035670001059770584, decouple_loss:0.002455375390127301
+/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Iteration: 2, ims.shape: (3, 56, 3, 720, 1440)
+The modified gen p mean: 0.45359569787979126, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.03702029958367348, decouple_loss:0.002158534014597535
+The modified gen p mean: 0.45447832345962524, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.035740725696086884, decouple_loss:0.0021034504752606153
+The modified gen p mean: 0.4524426758289337, gen p mean: 0.0, mean p set: 0.448
+loss_pred:0.03657301515340805, decouple_loss:0.002109057269990444
+Traceback (most recent call last):
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 406, in <module>
+    train_wrapper(model)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 291, in train_wrapper
+    trainer.train(model, ims, real_input_flag, extra_var_train, args, itr)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/trainer.py", line 26, in train
+    model.train(ims, real_input_flag, extra_var)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/models/model_factory_multiGPU.py", line 71, in train
+    loss.mean().backward()
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA out of memory. Tried to allocate 1.60 GiB (GPU 0; 39.42 GiB total capacity; 33.95 GiB already allocated; 1.14 GiB free; 36.53 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

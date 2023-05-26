@@ -32,3 +32,4 @@ config: {}
 2023-05-25 20:04:58,129 INFO    MainThread:3304466 [wandb_run.py:_config_callback():1285] config_cb lr 2e-05 None
 2023-05-25 20:04:58,129 INFO    MainThread:3304466 [wandb_config.py:__setitem__():152] config set batch_size = 1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x155312a9a2b0>>
 2023-05-25 20:04:58,129 INFO    MainThread:3304466 [wandb_run.py:_config_callback():1285] config_cb batch_size 1 None
+2023-05-26 01:38:07,551 WARNING MsgRouterThr:3304466 [router.py:message_loop():77] message_loop has been closed
