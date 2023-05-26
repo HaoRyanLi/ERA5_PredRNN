@@ -76,8 +76,8 @@ def test(model, test_input_handle, real_input_flag, extra_var, configs, save_dat
         total_batch = (test_input_handle.total()- configs.concurent_step)//configs.test_batch_size*configs.test_batch_size
         shape = (total_batch, configs.concurent_step*output_length+configs.input_length,
                 configs.img_channel, configs.img_height, configs.img_width)
-        perd_data_name = save_data_name+configs.save_file+'_pred.dat'
-        true_data_name = save_data_name+configs.save_file+'_true.dat'
+        perd_data_name = '_'.join([save_data_name, configs.save_file, 'pred.dat'])
+        true_data_name = '_'.join([save_data_name, configs.save_file, 'true.dat'])
         pred_data_array = np.memmap(configs.gen_data_dir+perd_data_name, dtype='float32', mode='w+', shape=shape)
         true_data_array = np.memmap(configs.gen_data_dir+true_data_name, dtype='float32', mode='w+', shape=shape)
     

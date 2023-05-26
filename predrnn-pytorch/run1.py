@@ -323,6 +323,7 @@ def test_wrapper(model):
     while len(test_data_files) > 0:
         test_data_file = test_data_files.pop()
         save_data_name = save_data_names.pop()
+        print(f"Prediction for test_data_file: {test_data_file} and will save dataset with name: {save_data_name}")
         test_input_handle = datasets_factory.data_provider(
             args,
             args.dataset_name, args.train_data_paths, test_data_file, args.test_batch_size, args.img_height, args.img_width,
