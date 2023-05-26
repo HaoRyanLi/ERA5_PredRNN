@@ -68,7 +68,7 @@ parser.add_argument('--use_weight', type=int, default=0)
 parser.add_argument('--layer_weight', type=str, default='1,1,1')
 parser.add_argument('--skip_time', type=int, default=1)
 parser.add_argument('--wavelet', type=str, default='db1')
-parser.add_argument('--save_data_name', type=str, default='')
+parser.add_argument('--save_data_names', type=str, default='')
 
 
 #center enhancement
@@ -306,21 +306,33 @@ def train_wrapper(model):
 
 def test_wrapper(model):
     model.load(model.configs.pretrained_model)
-    
+
     if model.configs.reverse_scheduled_sampling == 1:
         mask_input = 1
     else:
         mask_input = model.configs.input_length
-
     real_input_flag = torch.zeros((model.configs.test_batch_size, model.configs.total_length-mask_input-1, 1, 1, 1))
     # print(f"real_input_flag: {real_input_flag.shape}")
     if model.configs.reverse_scheduled_sampling == 1:
         real_input_flag[:, :model.configs.input_length - 1, :, :] = 1.0
-    
     real_input_flag = torch.FloatTensor(real_input_flag).to(model.configs.device)
-    # test_err = trainer.validate(model, test_input_handle, extra_var_test, args, 'test_result')
-    test_err = trainer.test(model, real_input_flag, extra_var_test, args, 'test_result')
-    print(f"The test mse is {test_err}")
+
+    total_length = (args.total_length-args.input_length)*args.concurent_step + args.input_length
+    test_data_files = args.valid_data_paths.split(',')
+    save_data_names = args.save_data_names.split(',')
+    while len(test_data_files) > 0:
+        test_data_file = test_data_files.pop()
+        save_data_name = save_data_names.pop()
+        test_input_handle = datasets_factory.data_provider(
+            args,
+            args.dataset_name, args.train_data_paths, test_data_file, args.test_batch_size, args.img_height, args.img_width,
+            seq_length=total_length, injection_action=args.injection_action, concurent_step=args.concurent_step,
+            img_channel = args.img_channel,img_layers = args.img_layers,
+            is_testing=True,is_training=False,is_WV=args.is_WV)
+
+        # test_err = trainer.validate(model, test_input_handle, extra_var_test, args, 'test_result')
+        test_err = trainer.test(model, test_input_handle, real_input_flag, extra_var_test, args, save_data_name)
+        print(f"The test mse is {test_err}")
 
 
 lat = torch.linspace(-np.pi/2, np.pi/2, args.img_height+1)

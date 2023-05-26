@@ -8,7 +8,7 @@ datasets_map = {
 
 
 def data_provider(configs, dataset_name, train_data_paths, valid_data_paths, batch_size,
-                  img_height, img_width, total_seq_length, injection_action, concurent_step,
+                  img_height, img_width, seq_length, injection_action, concurent_step,
                   img_channel, img_layers, is_testing=True, is_training=True, is_WV=True):
     if dataset_name not in datasets_map:
         raise ValueError('Name of dataset unknown %s' % dataset_name)
@@ -28,7 +28,7 @@ def data_provider(configs, dataset_name, train_data_paths, valid_data_paths, bat
                                 'name': dataset_name + ' test iterator',
                                 'img_layers': img_layers,
                                 'is_WV': is_WV, 
-                                'total_length': total_seq_length
+                                'total_length': seq_length
                                 }
             test_input_handle = datasets_map[dataset_name].InputHandle(test_input_param)
             test_input_handle.begin(do_shuffle=False)

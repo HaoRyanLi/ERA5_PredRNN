@@ -17,7 +17,7 @@ python -u run1.py \
     --dataset_name mnist \
     --train_data_paths ${train_data_paths} \
     --valid_data_paths /scratch/09012/haoli1/ERA5/val_dataset_6hrs/era5_train_2022_3_24hr.npz \
-    --save_data_name 2022_3 \
+    --save_data_names 2022_3 \
     --extra_var_paths /scratch/09012/haoli1/ERA5/exta_var.npz\
     --gen_frm_dir ${load_path} \
     --gen_data_dir /scratch/09012/haoli1/ERA5/evaluation/ \
