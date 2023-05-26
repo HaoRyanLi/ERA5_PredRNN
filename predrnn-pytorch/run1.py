@@ -1,7 +1,7 @@
 import tensorflow as tf
 tf.config.list_physical_devices('GPU')
 import os,sys
-# os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:256"
+# os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:1024"
 
 import shutil
 import argparse
@@ -68,6 +68,8 @@ parser.add_argument('--use_weight', type=int, default=0)
 parser.add_argument('--layer_weight', type=str, default='1,1,1')
 parser.add_argument('--skip_time', type=int, default=1)
 parser.add_argument('--wavelet', type=str, default='db1')
+parser.add_argument('--save_data_name', type=str, default='')
+
 
 #center enhancement
 parser.add_argument('--center_enhance', type=int, default=0)
@@ -297,7 +299,7 @@ def train_wrapper(model):
                 if test_err < args.curr_best_mse:
                     print(f'At step {itr}, Best test: '+str(np.round(test_err,6)))
                     args.curr_best_mse = test_err
-                    model.save(args.save_best_name)
+                    model.save(args.save_file)
             torch.cuda.empty_cache()
             train_input_handle.next()
                 

@@ -22,12 +22,12 @@ python -u run1.py \
     --add_geopential 0 \
     --add_land 0 \
     --add_latitude 0 \
-    --is_WV 0 \
-    --press_constraint 1 \
+    --is_WV 1 \
+    --press_constraint 0 \
     --center_enhance 0 \
     --patch_size 40 \
     --weighted_loss 1 \
-    --upload_run 1 \
+    --upload_run 0 \
     --layer_need_enhance 1 \
     --find_max False \
     --multiply 2 \
@@ -60,8 +60,7 @@ python -u run1.py \
     --snapshot_interval 2000 \
     --conv_on_input 0 \
     --res_on_conv 0 \
-    --curr_best_mse 0.045 \
-    --save_best_name test_schedule_sampling_DynaMean \
+    --curr_best_mse 0.048 \
     --pretrained_model /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
     --pretrained_model_name model_6000.ckpt \
 

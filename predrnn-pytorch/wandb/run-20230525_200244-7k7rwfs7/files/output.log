@@ -1,0 +1,57 @@
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1979_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1980_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1981_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1982_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1983_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1984_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1985_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1986_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1987_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1988_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1989_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1990_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1991_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1992_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1993_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1994_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1995_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1996_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1997_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1998_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_1999_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2000_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2001_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2002_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2003_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2004_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2005_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2006_3_24hr.npz
+/scratch/09012/haoli1/ERA5/dataset_6hrs/era5_train_2021_3_24hr.npz
+train_data_files nums: 29
+mnist test iterator, Loading data from /scratch/09012/haoli1/ERA5/val_dataset_6hrs/era5_train_2022_3_24hr.npz
+Traceback (most recent call last):
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 404, in <module>
+    train_wrapper(model)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/run1.py", line 240, in train_wrapper
+    test_input_handle = datasets_factory.data_provider(
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/data_provider/datasets_factory.py", line 33, in data_provider
+    test_input_handle = datasets_map[dataset_name].InputHandle(test_input_param)
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/data_provider/mnist_new.py", line 26, in __init__
+    self.load()
+  File "/work/09012/haoli1/ls6/ERA5_PredRNN/predrnn-pytorch/core/data_provider/mnist_new.py", line 35, in load
+    dat1_raw_data = dat_1['input_raw_data'][:,self.img_layers,:,:]
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/numpy/lib/npyio.py", line 253, in __getitem__
+    return format.read_array(bytes,
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/numpy/lib/format.py", line 823, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+  File "/work/09012/haoli1/ls6/Pyt/lib/python3.9/site-packages/numpy/lib/format.py", line 958, in _read_bytes
+    r = fp.read(size - len(data))
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/zipfile.py", line 922, in read
+    data = self._read1(n)
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/zipfile.py", line 992, in _read1
+    data = self._read2(n)
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/zipfile.py", line 1022, in _read2
+    data = self._fileobj.read(n)
+  File "/opt/apps/intel19/python3/3.9.7/lib/python3.9/zipfile.py", line 742, in read
+    data = self._file.read(n)
+KeyboardInterrupt

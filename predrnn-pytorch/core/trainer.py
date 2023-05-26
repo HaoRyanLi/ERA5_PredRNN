@@ -73,11 +73,13 @@ def test(model, test_input_handle, real_input_flag, extra_var, configs, itr):
     output_length = configs.total_length - configs.input_length
 
     if configs.save_test_result:
-
-        shape = (test_input_handle.total() - configs.concurent_step, configs.concurent_step*output_length+configs.input_length,
+        total_batch = (test_input_handle.total()- configs.concurent_step)//configs.test_batch_size*configs.test_batch_size
+        shape = (total_batch, configs.concurent_step*output_length+configs.input_length,
                 configs.img_channel, configs.img_height, configs.img_width)
-        pred_data_array = np.memmap(configs.gen_data_dir+'pred_data.dat', dtype='float32', mode='w+', shape=shape)
-        true_data_array = np.memmap(configs.gen_data_dir+'true_data.dat', dtype='float32', mode='w+', shape=shape)
+        perd_data_name = configs.save_data_name+configs.save_file+'_pred.dat'
+        true_data_name = configs.save_data_name+configs.save_file+'_true.dat'
+        pred_data_array = np.memmap(configs.gen_data_dir+perd_data_name, dtype='float32', mode='w+', shape=shape)
+        true_data_array = np.memmap(configs.gen_data_dir+true_data_name, dtype='float32', mode='w+', shape=shape)
     
     i = 0
     acc_mse = 0
