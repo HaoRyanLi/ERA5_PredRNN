@@ -306,13 +306,6 @@ def train_wrapper(model):
 
 def test_wrapper(model):
     model.load(model.configs.pretrained_model)
-    total_length = (args.total_length-args.input_length)*args.concurent_step + args.input_length
-    test_input_handle = datasets_factory.data_provider(
-        args,
-        args.dataset_name, args.train_data_paths, args.valid_data_paths, args.test_batch_size, args.img_height, args.img_width,
-        seq_length=total_length, injection_action=args.injection_action, concurent_step=args.concurent_step,
-        img_channel = args.img_channel,img_layers = args.img_layers,
-        is_testing=True,is_training=False,is_WV=args.is_WV)
     
     if model.configs.reverse_scheduled_sampling == 1:
         mask_input = 1
@@ -326,7 +319,7 @@ def test_wrapper(model):
     
     real_input_flag = torch.FloatTensor(real_input_flag).to(model.configs.device)
     # test_err = trainer.validate(model, test_input_handle, extra_var_test, args, 'test_result')
-    test_err = trainer.test(model, test_input_handle, real_input_flag, extra_var_test, args, 'test_result')
+    test_err = trainer.test(model, real_input_flag, extra_var_test, args, 'test_result')
     print(f"The test mse is {test_err}")
 
 

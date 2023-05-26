@@ -7,7 +7,7 @@ from core.utils import preprocess, metrics
 import lpips
 import torch
 import wandb
-
+from core.data_provider import datasets_factory
 from scipy import ndimage
 
 def center_enhance(img, min_distance = 100, sigma=4, radii=np.arange(0, 20, 2),find_max=True,enhance=True,multiply=2):
@@ -60,53 +60,65 @@ def validate(model, test_input_handle, extra_var, configs, itr):
     return avg_mse
 
 
-def test(model, test_input_handle, real_input_flag, extra_var, configs, itr):
+def test(model, real_input_flag, extra_var, configs, itr):
     '''
     When using this function, you must set configs.concurent_step > 1
     '''
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), 'testing...')
     # reverse schedule sampling
-    
-    if extra_var.all() is not None:
-        extra_var = torch.FloatTensor(extra_var).to(configs.device)
-    
-    output_length = configs.total_length - configs.input_length
 
-    if configs.save_test_result:
-        total_batch = (test_input_handle.total()- configs.concurent_step)//configs.test_batch_size*configs.test_batch_size
-        shape = (total_batch, configs.concurent_step*output_length+configs.input_length,
-                configs.img_channel, configs.img_height, configs.img_width)
-        perd_data_name = configs.save_data_name+configs.save_file+'_pred.dat'
-        true_data_name = configs.save_data_name+configs.save_file+'_true.dat'
-        pred_data_array = np.memmap(configs.gen_data_dir+perd_data_name, dtype='float32', mode='w+', shape=shape)
-        true_data_array = np.memmap(configs.gen_data_dir+true_data_name, dtype='float32', mode='w+', shape=shape)
+    total_seq_length = (configs.total_length-configs.input_length)*configs.concurent_step + configs.input_length
+    test_data_files = configs.valid_data_paths.split(',')
     
-    i = 0
-    acc_mse = 0
-    cur_pos = 0
-
-    while not test_input_handle.no_batch_left():
-        test_ims = test_input_handle.get_batch()
-        B = test_ims.shape[0]
-        if configs.save_test_result:
-            true_data_array[cur_pos:cur_pos+B,:] = test_ims.astype(np.float32)[:]
-
-        print(f"{i}, test_ims shape: {test_ims.shape}")
-        test_ims = torch.FloatTensor(test_ims).to(configs.device)
-        img_out, loss = model.test(test_ims, real_input_flag[:B], extra_var)
-        img_out = img_out.detach()
+    while len(test_data_files) > 0:
+        test_data_file = test_data_files.pop()
+        test_input_handle = datasets_factory.data_provider(
+            configs,
+            configs.dataset_name, configs.train_data_paths, test_data_file, configs.test_batch_size, configs.img_height, configs.img_width,
+            total_seq_length=total_seq_length, injection_action=configs.injection_action, concurent_step=configs.concurent_step,
+            img_channel = configs.img_channel,img_layers = configs.img_layers,
+            is_testing=True,is_training=False,is_WV=configs.is_WV)
+        
+        if extra_var.all() is not None:
+            extra_var = torch.FloatTensor(extra_var).to(configs.device)
+        
+        output_length = configs.total_length - configs.input_length
 
         if configs.save_test_result:
-            pred_data_array[cur_pos:cur_pos+B,:] = img_out.cpu().numpy().astype(np.float32)[:]
-        cur_pos += B
+            total_batch = (test_input_handle.total()- configs.concurent_step)//configs.test_batch_size*configs.test_batch_size
+            shape = (total_batch, configs.concurent_step*output_length+configs.input_length,
+                    configs.img_channel, configs.img_height, configs.img_width)
+            perd_data_name = configs.save_data_name+configs.save_file+'_pred.dat'
+            true_data_name = configs.save_data_name+configs.save_file+'_true.dat'
+            pred_data_array = np.memmap(configs.gen_data_dir+perd_data_name, dtype='float32', mode='w+', shape=shape)
+            true_data_array = np.memmap(configs.gen_data_dir+true_data_name, dtype='float32', mode='w+', shape=shape)
+        
+        i = 0
+        acc_mse = 0
+        cur_pos = 0
 
-        print(f"test_ims shape: {test_ims.shape}, img_out shape: {img_out.shape}")
-        avg_mse = torch.mean((img_out[:,-output_length:]-test_ims[:,-output_length:])**2*configs.area_weight).cpu().numpy()
-        acc_mse += avg_mse
-        print(f"{configs.save_file}, loss: {loss.mean()}, avg_mse: {avg_mse}")
-        i += 1
-        test_input_handle.next()
-    print(f"The avg mse is {acc_mse/i}")
-    if configs.save_test_result:
-        true_data_array.flush()
-        pred_data_array.flush()
+        while not test_input_handle.no_batch_left():
+            test_ims = test_input_handle.get_batch()
+            B = test_ims.shape[0]
+            if configs.save_test_result:
+                true_data_array[cur_pos:cur_pos+B,:] = test_ims.astype(np.float32)[:]
+
+            print(f"{i}, test_ims shape: {test_ims.shape}")
+            test_ims = torch.FloatTensor(test_ims).to(configs.device)
+            img_out, loss = model.test(test_ims, real_input_flag[:B], extra_var)
+            img_out = img_out.detach()
+
+            if configs.save_test_result:
+                pred_data_array[cur_pos:cur_pos+B,:] = img_out.cpu().numpy().astype(np.float32)[:]
+            cur_pos += B
+
+            print(f"test_ims shape: {test_ims.shape}, img_out shape: {img_out.shape}")
+            avg_mse = torch.mean((img_out[:,-output_length:]-test_ims[:,-output_length:])**2*configs.area_weight).cpu().numpy()
+            acc_mse += avg_mse
+            print(f"{configs.save_file}, loss: {loss.mean()}, avg_mse: {avg_mse}")
+            i += 1
+            test_input_handle.next()
+        print(f"The avg mse is {acc_mse/i}")
+        if configs.save_test_result:
+            true_data_array.flush()
+            pred_data_array.flush()
