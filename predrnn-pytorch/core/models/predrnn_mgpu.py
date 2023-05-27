@@ -214,8 +214,7 @@ class RNN(nn.Module):
             
             # decoupling loss
             for i in range(0, self.num_layers):
-                decouple_loss.append(
-                    torch.mean(torch.abs(torch.cosine_similarity(delta_c_list[i], delta_m_list[i], dim=2))))
+                decouple_loss.append(torch.mean(torch.abs(torch.cosine_similarity(delta_c_list[i], delta_m_list[i], dim=2))))
 
         if self.visual:
             # visualization of delta_c and delta_m
@@ -240,8 +239,13 @@ class RNN(nn.Module):
                 # frame_mean = torch.mean(self.area_weight*frames_tensor1[:,:,self.configs.layer_need_enhance])
             print(f"The modified gen p mean: {gen_mean}, gen p mean: {acc_gen_mean/(self.configs.total_length-1)}, mean p set: {self.mean_press}")
 
-        if self.configs.weighted_loss and not self.configs.is_WV:
-            loss_pred = self.get_weighted_loss(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:])
+        if self.configs.weighted_loss and self.configs.is_WV != 1:
+            if self.configs.is_WV == 2:
+                next_frames = self.wv_to_img(next_frames)
+                frames_tensor = self.wv_to_img(frames_tensor)
+                loss_pred = self.get_weighted_loss(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:], reshape_back=False)
+            else:
+                loss_pred = self.get_weighted_loss(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:])
         else:
             loss_pred = self.MSE_criterion(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:])
         print(f"loss_pred:{loss_pred}, decouple_loss:{decouple_loss}")
@@ -251,9 +255,9 @@ class RNN(nn.Module):
             torch.cuda.empty_cache()
             return loss, loss_pred, decouple_loss
         else:
-            if self.configs.is_WV:
+            if self.configs.is_WV == 1:
                 next_frames = self.wv_to_img(next_frames)
-            else:
+            elif self.configs.is_WV == 0:
                 next_frames = self.reshape_back_tensor(next_frames, self.patch_size)
                 if self.configs.center_enhance:
                     next_frames = self.de_enhance(next_frames)
@@ -291,9 +295,10 @@ class RNN(nn.Module):
                                           cur_height//patch_size, cur_width//patch_size])
 
 
-    def get_weighted_loss(self, pred_tensor, true_tensor):
-        pred_tensor = self.reshape_back_tensor(pred_tensor, self.patch_size)
-        true_tensor = self.reshape_back_tensor(true_tensor, self.patch_size)
+    def get_weighted_loss(self, pred_tensor, true_tensor, reshape_back=True):
+        if reshape_back:
+            pred_tensor = self.reshape_back_tensor(pred_tensor, self.patch_size)
+            true_tensor = self.reshape_back_tensor(true_tensor, self.patch_size)
         # print(f"self.area_weight shape: {self.area_weight.shape}, pred_tensor shape: {pred_tensor.shape}, true_tensor shape:{true_tensor.shape}")
         return torch.mean((pred_tensor-true_tensor)**2*self.area_weight)
 

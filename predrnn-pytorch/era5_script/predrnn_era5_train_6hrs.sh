@@ -11,6 +11,7 @@ train_data_paths=${train_data_paths%,}
 python -u run1.py \
     --is_training 1 \
     --device cuda:0 \
+    --mem_alloc_conf 0 \
     --dataset_name mnist \
     --train_data_paths ${train_data_paths} \
     --valid_data_paths /scratch/09012/haoli1/ERA5/val_dataset_6hrs/era5_train_2022_3_24hr.npz \

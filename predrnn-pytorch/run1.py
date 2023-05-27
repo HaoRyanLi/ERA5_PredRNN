@@ -1,8 +1,6 @@
 import tensorflow as tf
 tf.config.list_physical_devices('GPU')
 import os,sys
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
-
 import shutil
 import argparse
 import numpy as np
@@ -47,6 +45,7 @@ parser.add_argument('--is_training', type=int, default=1)
 parser.add_argument('--device', type=str, default='cpu:0')
 parser.add_argument('--test_batch_size', type=int, default=15)
 parser.add_argument('--save_test_result', type=int, default=0)
+parser.add_argument('--mem_alloc_conf', type=str, default='0')
 
 
 # data
@@ -154,6 +153,8 @@ parser.add_argument('--add_latitude', type=int, default=0)
 
 
 args = parser.parse_args()
+if int(args.mem_alloc_conf) > 0:
+    os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:" + args.mem_alloc_conf
 
 def reserve_schedule_sampling_exp(itr):
     if itr < args.r_sampling_step_1:
@@ -295,7 +296,7 @@ def train_wrapper(model):
             if itr % args.test_interval == 0:
                 test_input_handle.begin(do_shuffle=False)
                 test_err = trainer.validate(model, test_input_handle, extra_var_test, args, 'val_result')
-                print('current test mse: '+str(np.round(test_err,6)))
+                print(f'Best test mse: {np.round(args.curr_best_mse,6)}, current test mse: {np.round(test_err,6)}')
                 if test_err < args.curr_best_mse:
                     print(f'At step {itr}, Best test: '+str(np.round(test_err,6)))
                     args.curr_best_mse = test_err
@@ -400,13 +401,13 @@ if not os.path.exists(args.gen_frm_dir):
     os.makedirs(args.gen_frm_dir)
     print('Created:', args.gen_frm_dir)
 
-
+if args.is_WV == 2:
+    args.weighted_loss = 1
 
 print('Initializing models')
 model = Model(args)
 # model= nn.DataParallel(model, device_ids=[0, 1, 2])
 #model.to(args.device)
-
 
 if args.is_training:
     train_wrapper(model)

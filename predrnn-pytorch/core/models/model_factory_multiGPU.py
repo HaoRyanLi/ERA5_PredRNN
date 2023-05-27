@@ -28,6 +28,7 @@ class Model(object):
         devices = [i for i in range(configs.gpu_num)]
         self.network = nn.DataParallel(self.network, device_ids=devices).to(self.configs.device)
         self.optimizer = torch.optim.Adam(self.network.parameters(), lr=configs.lr)
+        self.scheduler = torch.optim.lr_scheduler.ExponentialLR(self.optimizer, gamma=0.9998)
         if self.configs.upload_run:
             self.upload_wandb()
     
@@ -70,6 +71,7 @@ class Model(object):
         torch.cuda.empty_cache()
         loss.mean().backward()
         self.optimizer.step()
+        self.scheduler.step()
         return loss.detach().cpu().numpy()
 
     def test(self, frames_tensor, mask_tensor, extra_var_tensor):
