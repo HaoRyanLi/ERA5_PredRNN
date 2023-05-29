@@ -19,7 +19,8 @@ class RNN(nn.Module):
         self.visual_path = self.configs.visual_path
         self.skip_time = self.configs.skip_time
         self.wavelet = self.configs.wavelet
-        
+        self.loss_pos_neg = self.configs.output_length 
+
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         # a magic number: the prescribed value for mean pressure.
@@ -52,6 +53,7 @@ class RNN(nn.Module):
         # print(f"self.configs.img_channel:{self.configs.img_channel}, self.frame_channel: {self.frame_channel}")
         self.img_chan_orig = self.img_channel
         self.loss_channel = self.img_channel*self.patch_size**2
+        
 
         if self.configs.add_geopential:
             self.frame_channel += self.patch_size**2
@@ -111,6 +113,7 @@ class RNN(nn.Module):
         batch = frames_tensor.shape[0]
         mask_true = mask_true.contiguous()
         
+
         if self.configs.center_enhance:
             chan_en = frames_tensor[0,:,self.configs.layer_need_enhance,:,:]*(105000-98000)+98000
             self.zonal_mean = torch.mean(1/(chan_en[0,:,:]), dim=1) #get lattitude mean of the first time step
@@ -142,7 +145,7 @@ class RNN(nn.Module):
         
         loss = 0
         memory = zeros
-        next_frames = torch.zeros(batch, self.configs.total_length-1, self.loss_channel, self.cur_height, self.cur_width).to(tensor_device)
+        next_frames = torch.zeros(batch, self.loss_pos_neg, self.loss_channel, self.cur_height, self.cur_width).to(tensor_device)
         net = torch.zeros(batch, self.frame_channel, self.cur_height, self.cur_width).to(tensor_device)
         if extra_var.any() is not None:
             extra_var = self.reshape_tensor(extra_var[:,None], self.patch_size)[:,0]
@@ -150,15 +153,15 @@ class RNN(nn.Module):
             net[:, self.loss_channel:] = extra_var
             # print(f"net shape: {net.shape}")
         # print(f"in the begining, next_frames shape:{next_frames.shape}")
+        
         acc_gen_mean = 0
         for t in range(0, self.configs.total_length-1):
             if self.configs.reverse_scheduled_sampling == 1:
                 # reverse schedule sampling
-                if t == 0:
+                if t < self.configs.total_length-self.loss_pos_neg:
                     net[:,:self.loss_channel] =  frames_tensor[:,t]
                 else:
-                    # print(f"t: {t}, mask_true[:, t - 1]: {np.sum(mask_true[:, t - 1].detach().cpu().numpy())}")
-                    net[:,:self.loss_channel] = mask_true[:,t-1]*frames_tensor[:,t] + (1-mask_true[:,t-1])*next_frames[:,t-1]
+                    net[:,:self.loss_channel] = next_frames[:,t-self.loss_pos_neg]
             # else:
             #     # schedule sampling
             #     if t < self.configs.input_length:
@@ -180,10 +183,13 @@ class RNN(nn.Module):
                     delta_c_visual.append(delta_c.view(delta_c.shape[0], delta_c.shape[1], -1))
                     delta_m_visual.append(delta_m.view(delta_m.shape[0], delta_m.shape[1], -1))
 
-            next_frames[:,t] = self.conv_last(h_t[self.num_layers - 1])
-            x_gen = next_frames[:,t:t+1]
+            if t < self.configs.total_length-self.loss_pos_neg-1:
+                x_gen = self.conv_last(h_t[self.num_layers - 1])
+            else:
+                next_frames[:,t+1-self.loss_pos_neg] = self.conv_last(h_t[self.num_layers - 1])
+                x_gen = next_frames[:,t+1-self.loss_pos_neg:t+2-self.loss_pos_neg]
             
-            if self.configs.press_constraint:
+            if t >= self.configs.total_length-self.loss_pos_neg-1 and self.configs.press_constraint:
                 if self.configs.is_WV:
                     # print(f"wv_to_img+de_enhance err:{torch.max(torch.abs(self.img_to_wv(self.enhance(self.de_enhance(self.wv_to_img(x_gen)))) - x_gen))}")
                     x_gen = self.wv_to_img(x_gen)
@@ -210,7 +216,8 @@ class RNN(nn.Module):
                         x_gen = self.enhance(x_gen)
                     x_gen = self.reshape_tensor(x_gen, self.patch_size)
 
-            next_frames[:,t:t+1] = x_gen
+            if t >= self.configs.total_length-self.loss_pos_neg-1:
+                next_frames[:,t+1-self.loss_pos_neg:t+2-self.loss_pos_neg] = x_gen
             
             # decoupling loss
             for i in range(0, self.num_layers):
@@ -242,12 +249,12 @@ class RNN(nn.Module):
         if self.configs.weighted_loss and self.configs.is_WV != 1:
             if self.configs.is_WV == 2:
                 next_frames = self.wv_to_img(next_frames)
-                frames_tensor = self.wv_to_img(frames_tensor)
-                loss_pred = self.get_weighted_loss(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:], reshape_back=False)
+                frames_tensor = self.wv_to_img(frames_tensor[:,-self.loss_pos_neg:])
+                loss_pred = self.get_weighted_loss(next_frames[:,-self.loss_pos_neg:,:self.loss_channel], frames_tensor[:,-self.loss_pos_neg:,:self.loss_channel,:,:], reshape_back=False)
             else:
-                loss_pred = self.get_weighted_loss(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:])
+                loss_pred = self.get_weighted_loss(next_frames[:,-self.loss_pos_neg:,:self.loss_channel], frames_tensor[:,-self.loss_pos_neg:,:self.loss_channel,:,:])
         else:
-            loss_pred = self.MSE_criterion(next_frames[:,:,:self.loss_channel], frames_tensor[:,1:,:self.loss_channel,:,:])
+            loss_pred = self.MSE_criterion(next_frames[:,-self.loss_pos_neg:,:self.loss_channel], frames_tensor[:,-self.loss_pos_neg:,:self.loss_channel,:,:])
         print(f"loss_pred:{loss_pred}, decouple_loss:{decouple_loss}")
         loss = loss_pred + self.configs.decouple_beta*decouple_loss
         if istrain:

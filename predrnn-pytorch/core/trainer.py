@@ -27,7 +27,6 @@ def train(model, ims, real_input_flag, extra_var, configs, itr):
 
 def validate(model, test_input_handle, extra_var, configs, itr):
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), 'testing...')
-    
     if extra_var.all() is not None:
         extra_var = torch.FloatTensor(extra_var).to(configs.device)
     

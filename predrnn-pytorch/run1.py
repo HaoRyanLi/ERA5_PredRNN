@@ -138,7 +138,7 @@ parser.add_argument('--is_logscale', type=int, default=0)
 parser.add_argument('--is_WV', type=int, default=0)
 parser.add_argument('--press_constraint', type=int, default=1)
 parser.add_argument('--weighted_loss', type=int, default=1)
-parser.add_argument('--display_press_mean', type=int, default=1)
+parser.add_argument('--display_press_mean', type=int, default=0)
 parser.add_argument('--upload_run', type=int, default=1)
 parser.add_argument('--project', type=str, default='PC_PredRNN')
 parser.add_argument('--opt', type=str, default='Adam')
@@ -153,6 +153,8 @@ parser.add_argument('--add_latitude', type=int, default=0)
 
 
 args = parser.parse_args()
+args.output_length = args.total_length - args.input_length
+
 if int(args.mem_alloc_conf) > 0:
     os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:" + args.mem_alloc_conf
 
@@ -226,9 +228,7 @@ def schedule_sampling(eta, itr):
 
 def train_wrapper(model):
     torch.cuda.empty_cache()
-    if args.pretrained_model and os.path.exists(args.pretrained_model):
-        model.load(args.pretrained_model)
-    model.network.train()
+    
     real_input_flag = np.zeros((args.batch_size, args.total_length-1-1, 1, 1, 1))
     real_input_flag[:, :args.input_length - 1, :, :] = 1.0
     train_data_files = args.train_data_paths.split(',')
@@ -262,6 +262,16 @@ def train_wrapper(model):
                     concurent_step=args.concurent_step,
                     img_channel=args.img_channel, img_layers=args.img_layers,
                     is_testing=False, is_training=True, is_WV=args.is_WV)
+        if args.pretrained_model and os.path.exists(args.pretrained_model):
+            model.load(args.pretrained_model)
+            test_input_handle.begin(do_shuffle=False)
+            args.curr_best_mse = trainer.validate(model, test_input_handle, extra_var_test, args, 'val_result')
+            print(f'Loaded model test mse: {np.round(args.curr_best_mse,6)}')
+            torch.cuda.empty_cache()
+        else:
+            print(f"The path {args.pretrained_model} does not exist. No model was loaded")
+        model.network.train()
+
         for itr in range(1, args.max_iterations + 1):
             if train_input_handle.no_batch_left():
                 if curr_pos < len(train_data_files)-1:

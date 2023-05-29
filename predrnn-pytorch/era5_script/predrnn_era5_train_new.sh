@@ -25,8 +25,8 @@ python -u run1.py \
     --add_geopential 0 \
     --add_land 0 \
     --add_latitude 0 \
-    --is_WV 2 \
-    --press_constraint 1 \
+    --is_WV 1 \
+    --press_constraint 0 \
     --center_enhance 0 \
     --patch_size 40 \
     --weighted_loss 1 \
@@ -65,4 +65,4 @@ python -u run1.py \
     --curr_best_mse 0.025 \
     --save_best_name wv0_pc0 \
     --pretrained_model /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
-    --pretrained_model_name model_init.ckpt \
+    --pretrained_model_name model_wv1_pc0.ckpt \

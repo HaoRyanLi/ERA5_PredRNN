@@ -19,11 +19,12 @@ python -u run1.py \
     --save_dir /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
     --gen_frm_dir /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
     --model_name predrnn_v2 \
+    --display_press_mean 0 \
     --reverse_input 0 \
     --add_geopential 0 \
     --add_land 0 \
     --add_latitude 0 \
-    --is_WV 1 \
+    --is_WV 0 \
     --press_constraint 0 \
     --center_enhance 0 \
     --patch_size 40 \
@@ -63,7 +64,7 @@ python -u run1.py \
     --res_on_conv 0 \
     --curr_best_mse 0.048 \
     --pretrained_model /work/09012/haoli1/ls6/PredRNN_checkpoints/ \
-    --pretrained_model_name model_6000.ckpt \
+    --pretrained_model_name model_WV_0_PC_0_EH_0_PS_40_6hrs.ckpt \
 
 #cp /scratch/network/hvtran/era5/checkpoints/era5_predrnn/model.ckpt-1000 /home/hvtran/
 #,/work/09012/haoli1/ls6/ERA5/era5_train_1001002016_3_24hr.npz,/work/09012/haoli1/ls6/ERA5/era5_train_0827002021_3_24hr.npz,/work/09012/haoli1/ls6/ERA5/era5_train_0921002022_3_24hr.npz
